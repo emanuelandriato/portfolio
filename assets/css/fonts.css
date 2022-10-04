@@ -1,0 +1,67 @@
+/* ----- Typography ----- */
+body{       
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: small;
+    font-style: normal;
+    font-size: 14px;
+}
+a {
+    color: inherited;
+}
+  
+a:hover, a:focus {
+    text-decoration: none;
+    color: #c4baf8;    
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+h1,h2,h3 {
+    font-weight: 700;    
+}
+
+h1{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+h1,h2,h3,p {
+    margin: 0 0 10px 10px;
+}
+
+
+ol, ul, blockquote {
+    margin: 0 0 0 0px;
+}
+  
+blockquote,cite {
+    border: 0;
+    font-style: italic;        
+    padding: 0;
+}
+
+cite{
+    font-weight: 700;      
+}
+
+.font-alt {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.text-center{
+    text-align: center;
+}

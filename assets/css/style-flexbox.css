@@ -1,0 +1,28 @@
+/* Flex */
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: rgb(161, 215, 245);
+	text-align: center;
+	font-size: 1.5em;
+	color: black;
+}
+
+.container {
+	max-width: 300px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}

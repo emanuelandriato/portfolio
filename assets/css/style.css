@@ -1,0 +1,167 @@
+*{   
+    margin: 0;         
+    color: rgb(176, 175, 176);                
+    box-sizing: border-box;
+}
+
+body{    
+    margin: 8px;
+    background: #353344;
+} 
+
+.background-style {
+    background-image: url("../img/mundial.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+
+/* ---------- Flex ---------- */
+.main-container{
+    display: flex;  
+}
+
+.container{
+    display: flex;      
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;    
+}
+
+.left{
+    flex:1;    
+    max-width: 600px;
+    display: flex;              
+}
+.right{
+    flex:1;    
+    max-width: 600px;
+    display: flex;               
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+    text-align: center;
+}
+
+.justify-between{
+    justify-content: space-between;   
+}
+
+.gap{
+    gap: 10px;
+}
+
+.gap-5{
+    gap: 5px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.center{
+    justify-content: center;
+    text-align: center;   
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+
+
+/* ---------- forms ---------- */
+.box{       
+    background: #202029;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    min-height: 35px;
+    margin:10px;
+    padding: 5px;
+    width: 95%;
+    display: flex;   
+}
+
+.ellipse{        
+    width: 128px;
+    height: 128px;                        
+    border-radius: 50% 50% 50% 50%;
+    border: 2px solid #8b8dff;                
+    
+}
+
+.sphere{
+    display: flex;
+    justify-content: center;width: 30%;    
+    align-items: center;           
+    height: 24px;
+    border-radius: 30px;          
+    background: #8b8dff;
+    color: black;
+
+    /*Ajustar essa fonte aqui pra levar pra fonts.css como fonte alternativa*/
+    font-weight: 700;    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+.mypicture{    
+    background-image: url("../img/profile.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+
+@media (max-width: 767px){    
+    .main-container{
+        display: flex;
+        flex-direction: column;        
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;             
+    }
+    main{
+        display: flex;  
+        flex-direction: column;        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {     
+    .main-container{
+        display: flex;              
+    }
+
+    aside{        
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    main{        
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}

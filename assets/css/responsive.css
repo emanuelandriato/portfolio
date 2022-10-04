@@ -1,0 +1,169 @@
+/*test responive*/
+/*
+From bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+*{   
+    margin: 0;                 
+    color: rgb(176, 175, 176);    
+}
+
+body{      
+    margin: 8px;
+    background: #22212C;
+    border: 1px solid red;   
+} 
+
+/*container com os itens em linha*/
+.sample-container-row {		
+    display: flex;    
+    flex-direction: row;    
+    background: #b9b6b6;
+    border: 1px solid blue;
+    color: blue;       
+    gap: 5px;
+    width: 100%;
+}  
+
+/*container com os itens em coluna*/
+.sample-container-column {		
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid green;
+    color: green;    
+    gap: 5px;
+}
+
+/*container com direcao a ser definidaf*/
+.sample-container{
+    display: flex;    
+}
+
+.sample-box{    
+    background-color: #22212C;
+    width: 50px;
+    height: 50px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;    
+}
+
+.boxteste{
+    display: flex;
+    background: #1b1b2f;  
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;    
+    min-height: 35px;          
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;       
+}
+
+.left{
+    flex:1;
+    background-color: #3258ff;
+    max-width: 600px;
+    display: flex;              
+}
+.right{
+    flex:1;
+    background-color: #3258ff;
+    max-width: 600px;
+    display: flex;               
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+aside{
+    flex:1;
+    background-color: #1afa56;    
+    display: flex;        
+}
+
+main{
+    flex:1;
+    background-color: #3258ff;    
+    display: flex;    
+}
+
+@media (max-width: 767px){ 
+    .sample-container {	   
+        background-color: #f2ff05;     	        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    aside{
+        background-color: #f2ff05;        
+    }
+    main{
+        background-color: #02e4b3;     
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {    
+    aside{
+        background-color: #909800; 
+        flex-basis: 50%;
+    }
+    main{
+        background-color: #047a60; 
+        flex-basis: 50%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {    
+    aside{
+        background-color: #616601; 
+        flex-basis: 25%;
+        max-width: 400px;
+    }
+    main{
+        background-color: #015543;
+        flex-basis: 50%;
+    }
+
+}
+
+
+
+
