@@ -1,0 +1,54 @@
+
+.icon{
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 24px;
+    width: 24px;
+    filter: invert(56%) sepia(71%) saturate(2063%) hue-rotate(208deg) brightness(101%) contrast(100%);
+}
+
+.icon:hover{
+    filter: invert(70%) sepia(99%) saturate(562%) hue-rotate(360deg) brightness(105%) contrast(103%);
+}
+
+.globe{    
+    background-image: url("../img/globe.svg");    
+}
+.instagran{
+    background-image: url("../img/instagram.svg");     
+}
+.github{
+    background-image: url("../img/github.svg");     
+}
+.pinmap{
+    background-image: url("../img/instagram.svg");     
+}
+.briefcase{
+    background-image: url("../img/briefcase.svg");     
+}
+.linkedin{
+    background-image: url("../img/linkedin.svg");
+}
+.email{
+    background-image: url("../img/mail.svg");    
+}
+
+
+
+
+
+/*Sample page css*/
+.sample-svg:hover{
+    fill: rgb(83, 185, 240);
+    stroke: rgb(255, 2, 2);
+}
+
+.sample-icon-background
+{
+    background-image: url("../img/arrow-right.svg");
+    background-position: center center;
+    background-repeat: repeat-x;       
+}
+.sample-icon-background:hover{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
