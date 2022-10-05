@@ -8,7 +8,7 @@ class Pessoa {
 
 const tecnologias = [
     'C','Pascal','Delphi','C#','HTML','CSS','JavaScript',
-    'Firebird','SqlServer','SqLite'
+    'MQL5','Firebird','SqlServer','SqLite'
 ]
 
 const prepareHead = [ 
